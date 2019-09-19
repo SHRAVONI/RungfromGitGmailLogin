@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <test name="FirstTestA" allow-return-values="true">
+		<classes>
+			<class name="Sdas.Finall.TestA" />
+		</classes>
+	</test>
+	
+	<test name="SecondTestB" allow-return-values="true">
+		<classes>
+			<class name="Sdas.Finall.TestB" />
+		</classes>
+	</test>
+	
+	<test name="ThirdTestC" allow-return-values="true">
+		<classes>
+			<class name="Sdas.Finall.TestC" />
+		</classes>
+	</test>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
