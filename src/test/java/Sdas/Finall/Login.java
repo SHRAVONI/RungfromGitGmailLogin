@@ -12,7 +12,7 @@ public class Login {
 	
 		public static void main(String[] args) throws Exception {
 			
-
+			System.out.println(System.getenv("JAVA_HOME"));
 			System.setProperty("webdriver.chrome.driver","C:\\driver\\chromedriver.exe");		
 			System.out.println(System.getProperty("webdriver.chrome.driver"));
 			WebDriver driver;
