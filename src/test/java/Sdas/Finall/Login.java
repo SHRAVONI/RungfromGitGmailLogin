@@ -6,11 +6,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class Login {
-	// this is new command
+	// this is the latest change.
 	
-		public static void main(String[] args) throws Exception {
+		//public static void main(String[] args) throws Exception
+	//{
+			@Test
+			public void login1() throws Exception
+			{
 			
 			System.out.println(System.getenv("JAVA_HOME"));
 			System.setProperty("webdriver.chrome.driver","C:\\driver\\chromedriver.exe");		
@@ -67,4 +72,5 @@ public class Login {
 				     // WebElement el = wait.until(presenceOfElementLocated(by));
 		}}
 
+	
 

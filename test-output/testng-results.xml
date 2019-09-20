@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43" started-at="2019-09-19T11:05:36Z" finished-at="2019-09-19T11:05:36Z">
+  <suite name="Default suite" duration-ms="37814" started-at="2019-09-20T17:29:28Z" finished-at="2019-09-20T17:30:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43" started-at="2019-09-19T11:05:36Z" finished-at="2019-09-19T11:05:36Z">
-      <class name="Sdas.Finall.TestB">
-        <test-method status="PASS" signature="fun2()[pri:0, instance:Sdas.Finall.TestB@343f4d3d]" name="fun2" duration-ms="15" started-at="2019-09-19T16:35:36Z" finished-at="2019-09-19T16:35:36Z">
+    <test name="Default test" duration-ms="37814" started-at="2019-09-20T17:29:28Z" finished-at="2019-09-20T17:30:06Z">
+      <class name="Sdas.Finall.Login">
+        <test-method status="PASS" signature="login1()[pri:0, instance:Sdas.Finall.Login@204f30ec]" name="login1" duration-ms="37792" started-at="2019-09-20T22:59:28Z" finished-at="2019-09-20T23:00:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fun2 -->
-      </class> <!-- Sdas.Finall.TestB -->
+        </test-method> <!-- login1 -->
+      </class> <!-- Sdas.Finall.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
