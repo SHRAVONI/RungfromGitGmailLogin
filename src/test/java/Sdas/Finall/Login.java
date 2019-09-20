@@ -9,8 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class Login {
-	// this is the latest change.
-	
+	// this is the latest change to the programme
+	WebDriver driver;
 		//public static void main(String[] args) throws Exception
 	//{
 			@Test
@@ -20,7 +20,7 @@ public class Login {
 			System.out.println(System.getenv("JAVA_HOME"));
 			System.setProperty("webdriver.chrome.driver","C:\\driver\\chromedriver.exe");		
 			System.out.println(System.getProperty("webdriver.chrome.driver"));
-			WebDriver driver;
+		//	WebDriver driver;
 			driver = new ChromeDriver();
 			System.out.println(System.getProperty("webdriver.chrome.driver"));
 			 String baseUrl = "https://www.gmail.com";
@@ -70,7 +70,13 @@ public class Login {
 				       driver.quit();
 				      /// WebDriverWait wait = new WebDriverWait(driver, 10);
 				     // WebElement el = wait.until(presenceOfElementLocated(by));
-		}}
+		}
+			@Test
+			public void login2() 
+			{
+				 driver.quit();
+			}
+}
 
 	
 
